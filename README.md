@@ -26,7 +26,7 @@ For tasks 1–3, consider only the year 2020. This project serves to practice th
 
 ## Some results
 
-### in Q1
+### Question 1
 
 Boxplot (Region ~ Fertility Rate)
 
@@ -35,3 +35,7 @@ Boxplot (Region ~ Fertility Rate)
 Boxplot (Region ~ Life Expectancy(Both Sexes))
 
 ![alt text](https://github.com/Jeffchen00/ISC-repo/blob/18fe860d94d45d24981c726b8187153e4b266384/Boxplot%20Region%20~%20Life%20Expectancy(Both%20Sexes).png)
+
+### Question 2
+### Question 3
+### Question 4
