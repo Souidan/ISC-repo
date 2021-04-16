@@ -1,5 +1,15 @@
 # Project 1
 
+1. Describe the frequency distributions of the variables. Consider also the differences between the sexes.
+
+2. Are there bivariate correlations between the variables?
+
+3. Are the values of the individual variables comparatively homogeneous within subregions and heterogeneous between different subregions? To answer this question, first compare the variability of the values in the individual subregions and then compare the values between different subregions.
+
+4. How have the values of the variables changed over the last 20 years, i.e. comparing 2000 with 2020?
+
+For tasks 1–3, consider only the year 2020. This project serves to practice the use of explorative and descriptive methods. Therefore, use both appropriate statistical measures and graphical methods for the analysis in all parts of the project.
+
 ## Update Log
 
 ### Question 1
