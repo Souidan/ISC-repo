@@ -17,6 +17,7 @@ For tasks 1–3, consider only the year 2020. This project serves to practice th
 
 + Load data
 + Select data from 2020
++ Draw Histogram (Total Fertility Rate) by each continant and golobal overall
 + Draw Boxplot (Region ~ Fertility Rate)
 + Draw Boxplot (Region ~ Life Expectancy Both Sexes)
 
