@@ -96,6 +96,6 @@ result = bp$stats
 rownames(result) <- c("min", "1Q", "2Q", "3Q", "max")
 colnames(result) <- bp$names
 print(result)
-print(result)
+
 ############################
 
