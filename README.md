@@ -13,4 +13,4 @@
 
 ##### Q1
 Boxplot (Region ~ Fertility Rate)
-https://github.com/Jeffchen00/ISC-repo/blob/1ea9ea6f64066924b2e72c37e51ba944e60dde27/Boxplot%20Region%20~%20Fertility%20Rate.png
+![alt text](https://github.com/Jeffchen00/ISC-repo/blob/1ea9ea6f64066924b2e72c37e51ba944e60dde27/Boxplot%20Region%20~%20Fertility%20Rate.png)
