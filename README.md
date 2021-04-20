@@ -62,6 +62,39 @@ Boxplot (Region ~ Life Expectancy(Both Sexes))
 
 ![alt text](https://github.com/Jeffchen00/ISC-repo/blob/18fe860d94d45d24981c726b8187153e4b266384/Boxplot%20Region%20~%20Life%20Expectancy(Both%20Sexes).png)
 
+#### 20/04/2021 Boyang Wang
+
+Histogram global life expectancy males vs females
+
+![global life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115420964-de195f00-a1fb-11eb-826c-b9c16971862e.png)
+
+Histogram Asian life expectancy males vs females
+
+![asian life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421114-fc7f5a80-a1fb-11eb-913b-45d7aaa1ddbe.png)
+
+Histogram African life expectancy males vs females
+
+![african life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421182-0a34e000-a1fc-11eb-8aa2-b1583fb37f06.png)
+
+Histogram European life expectancy males vs females
+
+![european life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421263-1620a200-a1fc-11eb-9dff-a0f7dd666884.png)
+
+
+Histogram Oceanic life expectancy males vs females
+
+![Oceanic life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421299-1e78dd00-a1fc-11eb-9025-d8d17f5b9d9b.png)
+
+Histogram American life expectancy males vs females
+
+![American life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421338-26388180-a1fc-11eb-81bb-ce26379ac383.png)
+
+
+
+
+
+
+
 ### Question 2
 ### Question 3
 ### Question 4
