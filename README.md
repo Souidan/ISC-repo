@@ -87,7 +87,8 @@ Histogram Oceanic life expectancy males vs females
 
 Histogram American life expectancy males vs females
 
-![American life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421338-26388180-a1fc-11eb-81bb-ce26379ac383.png)
+![hist_am_LE](https://user-images.githubusercontent.com/31046966/115423762-626ce180-a1fe-11eb-8160-ff722cbe3c4a.png)
+
 
 
 
