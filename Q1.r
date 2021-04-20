@@ -14,14 +14,16 @@ data_2020_eu <- subset(data_2020, Region == "Europe")
 ##############################################
 
 ## histogram of Global Total Fertility Rate
-hist(x = data_2020$Total.Fertility.Rate,
+sum_hist=hist(x = data_2020$Total.Fertility.Rate,
      main = "Histogram of Global Total Fertility Rate",
      xlab = "Fertility Rate",
      ylab = "Frequency",
-     breaks = seq(0, 8, 0.1))
+     breaks = seq(0, 8, 0.1),
+)
+
 
 ## histogram of Total Fertility Rate in Asia
-hist(x = data_2020_as$Total.Fertility.Rate,
+as_hist=hist(x = data_2020_as$Total.Fertility.Rate,
      main = "Histogram of Total Fertility Rate in Asia",
      xlab = "Fertility Rate",
      ylab = "Frequency",
@@ -29,7 +31,7 @@ hist(x = data_2020_as$Total.Fertility.Rate,
      ylim = c(0, 15))
 
 ## histogram of Total Fertility Rate in America
-hist(x = data_2020_am$Total.Fertility.Rate,
+am_hist=hist(x = data_2020_am$Total.Fertility.Rate,
      main = "Histogram of Total Fertility Rate in America",
      xlab = "Fertility Rate",
      ylab = "Frequency",
@@ -37,7 +39,7 @@ hist(x = data_2020_am$Total.Fertility.Rate,
      ylim = c(0, 15))
 
 ## histogram of Total Fertility Rate in Africa
-hist(x = data_2020_af$Total.Fertility.Rate,
+af_hist=hist(x = data_2020_af$Total.Fertility.Rate,
      main = "Histogram of Total Fertility Rate in Africa",
      xlab = "Fertility Rate",
      ylab = "Frequency",
@@ -45,7 +47,7 @@ hist(x = data_2020_af$Total.Fertility.Rate,
      ylim = c(0, 15))
 
 ## histogram of Total Fertility Rate in Europe
-hist(x = data_2020_eu$Total.Fertility.Rate,
+eu_hist=hist(x = data_2020_eu$Total.Fertility.Rate,
      main = "Histogram of Total Fertility Rate in Europe",
      xlab = "Fertility Rate",
      ylab = "Frequency",
@@ -53,12 +55,83 @@ hist(x = data_2020_eu$Total.Fertility.Rate,
      ylim = c(0, 15))
 
 ## histogram of Total Fertility Rate in Oceania
-hist(x = data_2020_oc$Total.Fertility.Rate,
+oc_hist=hist(x = data_2020_oc$Total.Fertility.Rate,
      main = "Histogram of Total Fertility Rate in Oceania",
      xlab = "Fertility Rate",
      ylab = "Frequency",
      breaks = seq(0, 8, 0.1),
      ylim = c(0, 15))
+
+
+##############################################
+
+
+## histogram of Life Expectancy for both Sexes in one graph
+
+male_le_hist = hist(
+        data_2020$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of global life expectancy"
+)
+female_le_hist = hist(
+        data_2020$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
+## histogram of Total Fertility Rate in Asia
+as_hist=hist(x = data_2020_as$Total.Fertility.Rate,
+             main = "Histogram of Total Fertility Rate in Asia",
+             xlab = "Fertility Rate",
+             ylab = "Frequency",
+             breaks = seq(0, 8, 0.1),
+             ylim = c(0, 15))
+
+## histogram of Total Fertility Rate in America
+am_hist=hist(x = data_2020_am$Total.Fertility.Rate,
+             main = "Histogram of Total Fertility Rate in America",
+             xlab = "Fertility Rate",
+             ylab = "Frequency",
+             breaks = seq(0, 8, 0.1),
+             ylim = c(0, 15))
+
+## histogram of Total Fertility Rate in Africa
+af_hist=hist(x = data_2020_af$Total.Fertility.Rate,
+             main = "Histogram of Total Fertility Rate in Africa",
+             xlab = "Fertility Rate",
+             ylab = "Frequency",
+             breaks = seq(0, 8, 0.1),
+             ylim = c(0, 15))
+
+## histogram of Total Fertility Rate in Europe
+eu_hist=hist(x = data_2020_eu$Total.Fertility.Rate,
+             main = "Histogram of Total Fertility Rate in Europe",
+             xlab = "Fertility Rate",
+             ylab = "Frequency",
+             breaks = seq(0, 8, 0.1),
+             ylim = c(0, 15))
+
+## histogram of Total Fertility Rate in Oceania
+oc_hist=hist(x = data_2020_oc$Total.Fertility.Rate,
+             main = "Histogram of Total Fertility Rate in Oceania",
+             xlab = "Fertility Rate",
+             ylab = "Frequency",
+             breaks = seq(0, 8, 0.1),
+             ylim = c(0, 15))
 
 
 ##############################################
@@ -90,6 +163,9 @@ bp = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Both.Sexes ~ data_202
 
 ## put the fivenum (min, max, 1st, 2nd, and 3rd quartile) on boxplot
 text(x = col(bp$stats), y = bp$stats, labels = bp$stats)
+
+# Prepare a vector of colors with specific color for male and female
+
 
 ## print the fivenum (min, max, 1st, 2nd, and 3rd quartile)
 result = bp$stats
