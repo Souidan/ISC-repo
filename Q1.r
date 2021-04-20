@@ -11,6 +11,10 @@ data_2020_af <- subset(data_2020, Region == "Africa")
 data_2020_oc <- subset(data_2020, Region == "Oceania")
 data_2020_eu <- subset(data_2020, Region == "Europe")
 
+# Prepare a vector of colors with specific color for male and female
+col_m = rgb(0, 0, 1, 0.5)
+col_f = rgb(1, 0, 0, 0.5)
+
 ##############################################
 
 ## histogram of Global Total Fertility Rate
@@ -67,19 +71,19 @@ oc_hist=hist(x = data_2020_oc$Total.Fertility.Rate,
 
 
 ## histogram of global Life Expectancy for both Sexes in one graph
-
 male_le_hist = hist(
         data_2020$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of global life expectancy"
+        main = "histogram of global life expectancy",
+        ylim = c(0, 25)
 )
 female_le_hist = hist(
         data_2020$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -87,26 +91,25 @@ female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f, col_m),
         pt.cex = 2,
         pch = 15
 )
 
 ## histogram of Life Expectancy Asian males and females
-
 as_male_le_hist = hist(
         data_2020_as$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of Asian life expectancy"
+        main = "histogram of Asian life expectancy",
+        ylim = c(0, 15)
 )
 as_female_le_hist = hist(
         data_2020_as$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -114,26 +117,25 @@ as_female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f, col_m),
         pt.cex = 2,
         pch = 15
 )
 
 ## histogram of Life Expectancy Africa males and females
-
 af_male_le_hist = hist(
         data_2020_af$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of African life expectancy"
+        main = "histogram of African life expectancy",
+        ylim = c(0, 15)
 )
 af_female_le_hist = hist(
         data_2020_af$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -141,26 +143,25 @@ af_female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f, col_m),
         pt.cex = 2,
         pch = 15
 )
 
 ## histogram of Life Expectancy Europe males and females
-
 eu_male_le_hist = hist(
         data_2020_eu$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of European life expectancy"
+        main = "histogram of European life expectancy",
+        ylim = c(0, 15)
 )
 eu_female_le_hist = hist(
         data_2020_eu$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -168,26 +169,25 @@ eu_female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f, col_m),
         pt.cex = 2,
         pch = 15
 )
 
 ## histogram of Life Expectancy Oceanic males and females
-
 oc_male_le_hist = hist(
         data_2020_oc$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of Oceanic life expectancy"
+        main = "histogram of Oceanic life expectancy",
+        ylim = c(0, 15)
 )
 oc_female_le_hist = hist(
         data_2020_oc$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -195,8 +195,8 @@ oc_female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f,
+                col_m),
         pt.cex = 2,
         pch = 15
 )
@@ -206,15 +206,16 @@ legend(
 am_male_le_hist = hist(
         data_2020_am$Life.Expectancy.at.Birth..Males,
         breaks = seq(40, 100, 1),
-        col = rgb(0, 0, 1, 0.5),
+        col = col_m,
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of American life expectancy"
+        main = "histogram of American life expectancy",
+        ylim = c(0, 15)
 )
 am_female_le_hist = hist(
         data_2020_am$Life.Expectancy.at.Birth..Females,
         breaks = seq(40, 100, 1),
-        col = rgb(1, 0, 0, 0.5),
+        col = col_f,
         add = T
 )
 
@@ -222,8 +223,7 @@ am_female_le_hist = hist(
 legend(
         "topright",
         legend = c("Females", "Males"),
-        col = c(rgb(1, 0, 0, 0.5),
-                rgb(0, 0, 1, 0.5)),
+        col = c(col_f, col_m),
         pt.cex = 2,
         pch = 15
 )
@@ -301,8 +301,32 @@ bp = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Both.Sexes ~ data_202
 ## put the fivenum (min, max, 1st, 2nd, and 3rd quartile) on boxplot
 text(x = col(bp$stats), y = bp$stats, labels = bp$stats)
 
-# Prepare a vector of colors with specific color for male and female
+## print the fivenum (min, max, 1st, 2nd, and 3rd quartile)
+result = bp$stats
+rownames(result) <- c("min", "1Q", "2Q", "3Q", "max")
+colnames(result) <- bp$names
+print(result)
 
+############################
+
+## draw the boxplot (Sex ~ Life Expectancy)
+bp = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Males ~ data_2020$Region,
+             data = data_2020,
+             xlab = "Region",
+             ylab = "Life Expectancy at Birth (Both Sexes)",
+             main = "Life Expectancy at Birth from Different Regions",
+             col = col_m)
+
+boxplot(formula = data_2020$Life.Expectancy.at.Birth..Females ~ data_2020$Region,
+        data = data_2020,
+        xlab = "Region",
+        ylab = "Life Expectancy at Birth (Both Sexes)",
+        main = "Life Expectancy at Birth from Different Regions",
+        col = col_f,
+        add = T)
+
+## put the fivenum (min, max, 1st, 2nd, and 3rd quartile) on boxplot
+text(x = col(bp$stats), y = bp$stats, labels = bp$stats)
 
 ## print the fivenum (min, max, 1st, 2nd, and 3rd quartile)
 result = bp$stats
