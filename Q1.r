@@ -66,7 +66,7 @@ oc_hist=hist(x = data_2020_oc$Total.Fertility.Rate,
 ##############################################
 
 
-## histogram of Life Expectancy for both Sexes in one graph
+## histogram of global Life Expectancy for both Sexes in one graph
 
 male_le_hist = hist(
         data_2020$Life.Expectancy.at.Birth..Males,
@@ -92,6 +92,116 @@ legend(
         pt.cex = 2,
         pch = 15
 )
+
+## histogram of Life Expectancy Asian males and females
+
+as_male_le_hist = hist(
+        data_2020_as$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of Asian life expectancy"
+)
+as_female_le_hist = hist(
+        data_2020_as$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
+## histogram of Life Expectancy Africa males and females
+
+af_male_le_hist = hist(
+        data_2020_af$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of African life expectancy"
+)
+af_female_le_hist = hist(
+        data_2020_af$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
+## histogram of Life Expectancy Europe males and females
+
+eu_male_le_hist = hist(
+        data_2020_eu$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of European life expectancy"
+)
+eu_female_le_hist = hist(
+        data_2020_eu$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
+## histogram of Life Expectancy Oceanic males and females
+
+oc_male_le_hist = hist(
+        data_2020_oc$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of Oceanic life expectancy"
+)
+oc_female_le_hist = hist(
+        data_2020_oc$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
+##############################################
 
 ## histogram of Total Fertility Rate in Asia
 as_hist=hist(x = data_2020_as$Total.Fertility.Rate,
