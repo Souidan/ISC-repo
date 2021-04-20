@@ -201,6 +201,33 @@ legend(
         pch = 15
 )
 
+## histogram of Life Expectancy American males and females
+
+am_male_le_hist = hist(
+        data_2020_am$Life.Expectancy.at.Birth..Males,
+        breaks = seq(40, 100, 1),
+        col = rgb(0, 0, 1, 0.5),
+        xlab = "life expectancy",
+        ylab = "Frequency",
+        main = "histogram of Oceanic life expectancy"
+)
+am_female_le_hist = hist(
+        data_2020_am$Life.Expectancy.at.Birth..Females,
+        breaks = seq(40, 100, 1),
+        col = rgb(1, 0, 0, 0.5),
+        add = T
+)
+
+# Add legend
+legend(
+        "topright",
+        legend = c("Females", "Males"),
+        col = c(rgb(1, 0, 0, 0.5),
+                rgb(0, 0, 1, 0.5)),
+        pt.cex = 2,
+        pch = 15
+)
+
 ##############################################
 
 ## histogram of Total Fertility Rate in Asia
