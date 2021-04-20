@@ -209,7 +209,7 @@ am_male_le_hist = hist(
         col = rgb(0, 0, 1, 0.5),
         xlab = "life expectancy",
         ylab = "Frequency",
-        main = "histogram of Oceanic life expectancy"
+        main = "histogram of American life expectancy"
 )
 am_female_le_hist = hist(
         data_2020_am$Life.Expectancy.at.Birth..Females,
