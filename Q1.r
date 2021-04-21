@@ -310,29 +310,41 @@ print(result)
 ############################
 
 ## draw the boxplot (Sex ~ Life Expectancy)
-bp = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Males ~ data_2020$Region,
-             data = data_2020,
-             xlab = "Region",
-             ylab = "Life Expectancy at Birth (Both Sexes)",
-             main = "Life Expectancy at Birth from Different Regions",
-             col = col_m)
+bp_m = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Males ~ data_2020$Region,
+                data = data_2020,
+                xlab = "Region",
+                ylab = "Life Expectancy at Birth (Both Sexes)",
+                main = "Life Expectancy at Birth from Different Regions",
+                col = col_m)
 
-boxplot(formula = data_2020$Life.Expectancy.at.Birth..Females ~ data_2020$Region,
-        data = data_2020,
-        xlab = "Region",
-        ylab = "Life Expectancy at Birth (Both Sexes)",
-        main = "Life Expectancy at Birth from Different Regions",
-        col = col_f,
-        add = T)
+bp_f = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Females ~ data_2020$Region,
+                data = data_2020,
+                xlab = "Region",
+                ylab = "Life Expectancy at Birth (Both Sexes)",
+                main = "Life Expectancy at Birth from Different Regions",
+                col = col_f,
+                add = T)
 
 ## put the fivenum (min, max, 1st, 2nd, and 3rd quartile) on boxplot
-text(x = col(bp$stats), y = bp$stats, labels = bp$stats)
+text(x = col(bp_m$stats), y = bp_m$stats, labels = bp_m$stats)
+text(x = col(bp_f$stats), y = bp_f$stats, labels = bp_f$stats)
+
+
+# Add legend
+legend("bottomright",
+       legend = c("Females", "Males"),
+       col = c(col_f, col_m),
+       pt.cex = 2,
+       pch = 15
+)
 
 ## print the fivenum (min, max, 1st, 2nd, and 3rd quartile)
-result = bp$stats
-rownames(result) <- c("min", "1Q", "2Q", "3Q", "max")
-colnames(result) <- bp$names
-print(result)
-
-############################
+result_m = bp_m$stats
+result_f = bp_f$stats
+rownames(result_m) <- c("min", "1Q", "2Q", "3Q", "max")
+rownames(result_f) <- c("min", "1Q", "2Q", "3Q", "max")
+colnames(result_m) <- bp_m$names
+colnames(result_f) <- bp_f$names
+print(result_m)
+print(result_f)
 
