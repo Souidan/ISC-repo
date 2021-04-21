@@ -72,7 +72,7 @@ Histogram American life expectancy males vs females
 
 Boxplot (Region ~ Life Expectancy)
 
-![Boxplot Region ~ LE male & female](https://github.com/Jeffchen00/ISC-repo/blob/eaf7bb315a400a9ca4a6420c94f1b80a7a6bf018/result_Q1/Boxplot%20Region%20~%20LE%20male%20&%20female.png)
+![Boxplot Region ~ LE male & female](https://github.com/Jeffchen00/ISC-repo/blob/fbea636c926e2c87361dae9b922693f5fc41d1e1/result_Q2/lm_TFR_LE.png)
 
 
 
