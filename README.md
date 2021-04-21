@@ -9,21 +9,6 @@
 
 For tasks 1–3, consider only the year 2020. This project serves to practice the use of explorative and descriptive methods. Therefore, use both appropriate statistical measures and graphical methods for the analysis in all parts of the project.
 
-## Update Log
-
-### Question 1
-
-#### 16/04/2021 13:30 Chang-chia
-
-+ Load data
-+ Select data from 2020
-+ Draw Histogram (Total Fertility Rate) by each continant and golobal overall
-+ Draw Boxplot (Region ~ Fertility Rate)
-+ Draw Boxplot (Region ~ Life Expectancy Both Sexes)
-
-### Question 2
-### Question 3
-### Question 4
 
 ## Some results
 
