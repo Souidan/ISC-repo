@@ -134,11 +134,13 @@ Bloxplot LE globally 2000 vs 2020
 
 Bloxplot LE male 2000 vs 2020
 
-![boxplot_LE_male_00to20](https://user-images.githubusercontent.com/31046966/115752073-0dfe6900-a39a-11eb-8d9a-108fbea83756.png)
+![boxplot_LE_male_00to20](https://user-images.githubusercontent.com/31046966/115754484-8534fc80-a39c-11eb-8662-541780bd6819.png)
+
 
 Bloxplot LE female 2000 vs 2020
 
-![boxplot_LE_female_00to20](https://user-images.githubusercontent.com/31046966/115752264-371ef980-a39a-11eb-8ca2-b0843bf679cc.png)
+![boxplot_LE_female_00to20](https://user-images.githubusercontent.com/31046966/115754506-89f9b080-a39c-11eb-8903-2a093d746994.png)
+
 
 
 
