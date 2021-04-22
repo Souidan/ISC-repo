@@ -9,21 +9,6 @@
 
 For tasks 1–3, consider only the year 2020. This project serves to practice the use of explorative and descriptive methods. Therefore, use both appropriate statistical measures and graphical methods for the analysis in all parts of the project.
 
-## Update Log
-
-### Question 1
-
-#### 16/04/2021 13:30 Chang-chia
-
-+ Load data
-+ Select data from 2020
-+ Draw Histogram (Total Fertility Rate) by each continant and golobal overall
-+ Draw Boxplot (Region ~ Fertility Rate)
-+ Draw Boxplot (Region ~ Life Expectancy Both Sexes)
-
-### Question 2
-### Question 3
-### Question 4
 
 ## Some results
 
@@ -53,7 +38,6 @@ Histogram TFR in Oceania
 
 ![alt text](https://github.com/Jeffchen00/ISC-repo/blob/a835d9a3faba84fdf0b531a60f83a72a6197fde6/hist_TFR_oc.png)
 
-
 Boxplot (Region ~ Fertility Rate)
 
 ![alt text](https://github.com/Jeffchen00/ISC-repo/blob/1ea9ea6f64066924b2e72c37e51ba944e60dde27/Boxplot%20Region%20~%20Fertility%20Rate.png)
@@ -61,8 +45,6 @@ Boxplot (Region ~ Fertility Rate)
 Boxplot (Region ~ Life Expectancy(Both Sexes))
 
 ![alt text](https://github.com/Jeffchen00/ISC-repo/blob/18fe860d94d45d24981c726b8187153e4b266384/Boxplot%20Region%20~%20Life%20Expectancy(Both%20Sexes).png)
-
-#### 20/04/2021 Boyang Wang
 
 Histogram global life expectancy males vs females
 
@@ -80,7 +62,6 @@ Histogram European life expectancy males vs females
 
 ![european life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421263-1620a200-a1fc-11eb-9dff-a0f7dd666884.png)
 
-
 Histogram Oceanic life expectancy males vs females
 
 ![Oceanic life expectancy males vs females](https://user-images.githubusercontent.com/31046966/115421299-1e78dd00-a1fc-11eb-9025-d8d17f5b9d9b.png)
@@ -89,13 +70,17 @@ Histogram American life expectancy males vs females
 
 ![hist_am_LE](https://user-images.githubusercontent.com/31046966/115423762-626ce180-a1fe-11eb-8160-ff722cbe3c4a.png)
 
+Boxplot (Region ~ Life Expectancy)
 
-
-
-
+![Boxplot Region ~ LE male & female](https://github.com/Jeffchen00/ISC-repo/blob/ac7bbad752db500e88a92ff7529ed12c83e516d5/result_Q1/Boxplot%20Region%20~%20LE%20male%20&%20female.png)
 
 
 
 ### Question 2
+
+Linear model between life expectancy and TFR
+
+![lm_TFR_LE](https://github.com/Jeffchen00/ISC-repo/blob/fbea636c926e2c87361dae9b922693f5fc41d1e1/result_Q2/lm_TFR_LE.png)
+
 ### Question 3
 ### Question 4
