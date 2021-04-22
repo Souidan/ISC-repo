@@ -89,9 +89,60 @@ Linear model between life expectancy males and TFR
 
 Linear model between life expectancy females and TFR
 
-![lm_TFR_LE_FEMALE](https://user-images.githubusercontent.com/31046966/115736880-eef8da80-a38b-11eb-873c-d250446754f1.png)
+![lm_TFR_LE_FEMALE](https://user-images.githubusercontent.com/31046966/115752813-c3312100-a39a-11eb-8e8c-da4d3fab032c.png)
+
 
 
 
 ### Question 3
 ### Question 4
+
+histogram TFR 2000 vs 2020
+
+![hist_TFR_00to20](https://user-images.githubusercontent.com/31046966/115751349-697c2700-a399-11eb-9a99-c5a69cb73362.png)
+
+histogram FR Asia 2000 vs 2020
+
+![hist_as_FR_00to20](https://user-images.githubusercontent.com/31046966/115751830-d7c0e980-a399-11eb-851f-33a67ddb664a.png)
+
+histogram FR America 2000 vs 2020
+
+![hist_am_FR_00to20](https://user-images.githubusercontent.com/31046966/115751855-dbed0700-a399-11eb-9abc-264c7043f6b3.png)
+
+histogram FR Africa 2000 vs 2020
+
+![hist_af_FR_00to20](https://user-images.githubusercontent.com/31046966/115751873-dee7f780-a399-11eb-8d3b-b004cc153487.png)
+
+histogram FR Europe 2000 vs 2020
+
+![hist_eu_FR_00to20](https://user-images.githubusercontent.com/31046966/115751899-e3acab80-a399-11eb-8e12-9d2296e13957.png)
+
+histogram FR Oceania 2000 vs 2020
+
+![hist_oc_FR_00to20](https://user-images.githubusercontent.com/31046966/115751916-e8715f80-a399-11eb-9c38-a138c506cb83.png)
+
+
+
+Bloxplot TFR globally 2000 vs 2020
+
+![boxplot_FR_00to20](https://user-images.githubusercontent.com/31046966/115752205-2d959180-a39a-11eb-88b4-df18c4a38e12.png)
+
+
+Bloxplot LE globally 2000 vs 2020
+
+![boxplot_LE_00to20](https://user-images.githubusercontent.com/31046966/115752009-fd4df300-a399-11eb-917f-5b35743e6960.png)
+
+Bloxplot LE male 2000 vs 2020
+
+![boxplot_LE_male_00to20](https://user-images.githubusercontent.com/31046966/115752073-0dfe6900-a39a-11eb-8d9a-108fbea83756.png)
+
+Bloxplot LE female 2000 vs 2020
+
+![boxplot_LE_female_00to20](https://user-images.githubusercontent.com/31046966/115752264-371ef980-a39a-11eb-8ca2-b0843bf679cc.png)
+
+
+
+
+
+
+
