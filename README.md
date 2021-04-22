@@ -82,5 +82,14 @@ Linear model between life expectancy and TFR
 
 ![lm_TFR_LE](https://github.com/Jeffchen00/ISC-repo/blob/fbea636c926e2c87361dae9b922693f5fc41d1e1/result_Q2/lm_TFR_LE.png)
 
+Linear model between life expectancy males and TFR
+
+![lm_TFR_LE_MALE](https://user-images.githubusercontent.com/31046966/115736275-72fe9280-a38b-11eb-8157-ae65295f3f0f.png)
+
+Linear model between life expectancy females and TFR
+
+![lm_TFR_LE_FEMALE](https://user-images.githubusercontent.com/31046966/115736294-77c34680-a38b-11eb-8e3d-8810f292d8d2.png)
+
+
 ### Question 3
 ### Question 4
