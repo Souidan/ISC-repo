@@ -245,8 +245,8 @@ bp_2020_LE_male = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Males ~ 
                      add = T)
 
 ## put the five num (min, max, 1st, 2nd, and 3rd quantile) on boxplot
-text(x = col(bp_m$stats), y = bp_2000_LE_male$stats, labels = bp_m$stats)
-text(x = col(bp_f$stats), y = bp_2020_LE_male$stats, labels = bp_f$stats)
+text(x = col(bp_2000_LE_male$stats), y = bp_2000_LE_male$stats, labels = bp_2000_LE_male$stats)
+text(x = col(bp_2020_LE_male$stats), y = bp_2020_LE_male$stats, labels = bp_2020_LE_male$stats)
 
 
 # Add legend
@@ -290,8 +290,8 @@ bp_2020_LE_female = boxplot(formula = data_2020$Life.Expectancy.at.Birth..Female
                      add = T)
 
 ## put the five num (min, max, 1st, 2nd, and 3rd quantile) on boxplot
-text(x = col(bp_m$stats), y = bp_2000_LE_female$stats, labels = bp_m$stats)
-text(x = col(bp_f$stats), y = bp_2020_LE_female$stats, labels = bp_f$stats)
+text(x = col(bp_2000_LE_female$stats), y = bp_2000_LE_female$stats, labels = bp_2000_LE_female$stats)
+text(x = col(bp_2020_LE_female$stats), y = bp_2020_LE_female$stats, labels = bp_2020_LE_female$stats)
 
 
 # Add legend
@@ -303,8 +303,8 @@ legend("bottomright",
 )
 
 ## print the fivenum (min, max, 1st, 2nd, and 3rd quartile)
-result_2000_LE_female = bp_2000_LE_male$stats
-result_2020_LE_female = bp_2020_LE_male$stats
+result_2000_LE_female = bp_2000_LE_female$stats
+result_2020_LE_female = bp_2020_LE_female$stats
 
 rownames(result_2000_LE_female) <- c("min", "1Q", "2Q", "3Q", "max")
 colnames(result_2000_LE_female) <- bp_2000_LE_female$names
