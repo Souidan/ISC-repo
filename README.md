@@ -89,7 +89,8 @@ Linear model between life expectancy males and TFR
 
 Linear model between life expectancy females and TFR
 
-![lm_TFR_LE_FEMALE](https://user-images.githubusercontent.com/31046966/115736880-eef8da80-a38b-11eb-873c-d250446754f1.png)
+![lm_TFR_LE_FEMALE](https://user-images.githubusercontent.com/31046966/115752813-c3312100-a39a-11eb-8e8c-da4d3fab032c.png)
+
 
 
 
