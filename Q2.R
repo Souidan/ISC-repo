@@ -114,7 +114,7 @@ abline(lm.model2, lwd=2)
 ## plot FTR ~ LE females in Africa
 plot(x = data_2020_af$Total.Fertility.Rate,
      y = data_2020_af$Life.Expectancy.at.Birth..Females,
-     main = "Fertility Rate v.s. Life Expectancy",
+     main = "Fertility Rate v.s. Life Expectancy Females",
      xlab = "Fertility Rate",
      ylab = "Life Expectancy",
      pch = 16,
@@ -154,6 +154,6 @@ legend("topright",
 )
 
 # draw the regression line between TFR and LE
-lm.model3 <- lm(data_2020$Life.Expectancy.at.Birth..Both.Sexes~data_2020$Total.Fertility.Rate, data_2020)
+lm.model3 <- lm(data_2020$Life.Expectancy.at.Birth..Females~data_2020$Total.Fertility.Rate, data_2020)
 abline(lm.model3, lwd=2)
 
