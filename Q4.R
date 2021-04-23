@@ -6,7 +6,7 @@ data_2020 <- subset(data, Year == 2020)
 data_2000 <- subset(data, Year == 2000)
 
 ## select data based on continent
-data_2000_as <- subset(data_2020, Region == "Asia")
+data_2000_as <- subset(data_2000, Region == "Asia")
 data_2020_as <- subset(data_2020, Region == "Asia")
 
 data_2000_am <- subset(data_2000, Region == "Americas")
