@@ -95,8 +95,9 @@ Linear model between life expectancy females and TFR
 
 
 ### Question 3
+A Scatter Plot to show each African country's Total Fertility Rate faceted by SubRegion.
 
-
+![Scatter_Plot_Africa](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/African_Boxes_Subregion.png)
 
 
 
