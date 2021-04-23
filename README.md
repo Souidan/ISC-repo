@@ -103,7 +103,8 @@ histogram TFR 2000 vs 2020
 
 histogram FR Asia 2000 vs 2020
 
-![hist_as_FR_00to20](https://user-images.githubusercontent.com/31046966/115751830-d7c0e980-a399-11eb-851f-33a67ddb664a.png)
+![hist_as_FR_00to20](https://user-images.githubusercontent.com/31046966/115832911-bb619300-a413-11eb-8128-db4c4e0a859f.png)
+
 
 histogram FR America 2000 vs 2020
 
