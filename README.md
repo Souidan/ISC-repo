@@ -106,7 +106,7 @@ A Scatter Plot to show each Asian country's Total Fertility Rate faceted by SubR
 
 A Scatter Plot to show each African country's Total Fertility Rate faceted by SubRegion.
 
-![Scatter_Plot_Africa](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/African_Boxes_Subregion.png)
+![Scatter_Plot_Africa](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/African_Scatters_Subregion.png)
 
 
 A Scatter Plot to show each EU country's Total Fertility Rate faceted by SubRegion.
