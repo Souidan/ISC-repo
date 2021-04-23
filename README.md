@@ -95,9 +95,64 @@ Linear model between life expectancy females and TFR
 
 
 ### Question 3
+
+
+
+#### We at first diplay the scatter plots for each continent in order to display individual country's Total Fertility Rate variances subgrouped(faceted by subregion)
+
+A Scatter Plot to show each Asian country's Total Fertility Rate faceted by SubRegion.
+
+![Scatter_Plot_Asia](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/Asian_Scatters_Subregion.png)
+
 A Scatter Plot to show each African country's Total Fertility Rate faceted by SubRegion.
 
 ![Scatter_Plot_Africa](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/African_Boxes_Subregion.png)
+
+
+A Scatter Plot to show each EU country's Total Fertility Rate faceted by SubRegion.
+
+![Scatter_Plot_EU](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/EU_Scatters_Subregion.png)
+
+A Scatter Plot to show each Oceania country's Total Fertility Rate faceted by SubRegion.
+
+![Scatter_Plot_Oceania](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/Ocenia_Scatters_Subregion.png)
+
+
+A Scatter Plot to show each America country's Total Fertility Rate faceted by SubRegion.
+
+![Scatter_Plot_America](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/American_Scatters_Subregion.png)
+
+
+#### We secondly diplay the box plots for each continent in order to display  Total Fertility Rate variances across the subregions per continent
+
+A Box Plot to show Total Fertility Rate per SubRegion in Asia.
+
+![Box_Plot_Asia](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/Asian_Boxes_Subregion.png)
+
+A Box Plot to show Total Fertility Rate per SubRegion in Africa.
+
+![Box_Plot_Africa](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/African_Boxes_Subregion.png)
+
+
+A Box Plot to show Total Fertility Rate per SubRegion in the EU.
+
+![Box_Plot_EU](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/EU_Boxes_Subregion.png)
+
+A Box Plot to show Total Fertility Rate per SubRegion in Oceania.
+
+![Box_Plot_Oceania](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/Ocenia_Boxes_Subregion.png)
+
+
+A Box Plot to show Total Fertility Rate per SubRegion in America.
+
+![Box_Plot_America](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/American_Boxes_Subregion.png)
+
+
+#### Finally we display a box plot for the whole world' Total Fertility Rate per region
+
+A Box Plot to show Total Fertility Rate  in the world.
+
+![Box_Plot_World](https://github.com/Souidan/ISC-repo/blob/Project-1/result_Q3/World_Boxes_Region.png)
 
 
 
