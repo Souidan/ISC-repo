@@ -95,6 +95,12 @@ Linear model between life expectancy females and TFR
 
 
 ### Question 3
+
+
+
+
+
+
 ### Question 4
 
 histogram TFR 2000 vs 2020
